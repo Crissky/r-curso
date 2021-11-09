@@ -1,0 +1,1 @@
+Teste de Kruskal-Wallis e Freadman - https://rpubs.com/edneide_ramalho/kruskal_wallis_friedman
