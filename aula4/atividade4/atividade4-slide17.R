@@ -14,8 +14,8 @@ valores <- "tempo" # Days
 
 # 1.3 Estatísticas de resumo
 dados %>% 
-  group_by(grupo) %>% 
-  get_summary_stats(valor, type = "full")
+  group_by(idade) %>% 
+  get_summary_stats(tempo, type = "full")
 
 
 ggboxplot(dados, x = grupos, y = valores)

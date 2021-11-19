@@ -53,6 +53,10 @@ teste_pareado <- notas_long %>%
   add_significance()
 teste_pareado
 
+# Efeito
+notas_long %>%
+  cohens_d(nota ~ momento, var.equal = TRUE)
+
 
 # Gere o gráfico final do teste t pareado 
 # usando o ggpaired e também o ggboxplot.

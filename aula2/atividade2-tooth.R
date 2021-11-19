@@ -88,6 +88,11 @@ resultado_teste_t <- ToothGrowth %>%
   add_significance()
 resultado_teste_t
 
+# Efeito
+ToothGrowth %>%
+  cohens_d(len ~ supp, var.equal = FALSE)
+
+
 # Finalizando a visualização inicial modificando
 # o título dos eixos e adicionando as
 # informações do teste realizado.

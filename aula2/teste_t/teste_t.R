@@ -60,7 +60,7 @@ genderweight %>%
 teste_peso_genero <- genderweight %>%
   t_test(weight ~ group, var.equal = FALSE) %>%
   add_significance()
-teste_peso_gênero
+teste_peso_genero
 
 
 genderweight %>%
